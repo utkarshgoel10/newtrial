@@ -112,7 +112,7 @@ a.effect-underline:hover:after {
 }
 
 
-/*<!------------------------------------------Try------------------------------------------->*/
+/*<!-----------------------------------------Search------------------------------------------>*/
 * {
   box-sizing: border-box;
 }
@@ -168,7 +168,7 @@ form button{
 }
 
 
-
+/*-----------------------------------------------List-----------------------------------------*/
 
 .ulcntnt a{
 	text-decoration: none;
@@ -184,14 +184,14 @@ ul{
 
 
 
-
+/*
 #flx{
   display: flex;
 }
 
 .one, .two, .three{
   flex: 1 1 120px;
-}
+}*/
 .ulcntnt{
 	font-size: 1.2rem;
 }
@@ -220,10 +220,10 @@ ul{
 	.ulcntnt li{
 			margin-top: 0.8rem;/*margin-bottom: 1rem;*/
 	}
-.one, .two, .three{
+/*.one, .two, .three{
   flex: 1 1 90px;
 }
-
+*/
 }
 @media only screen and (max-width: 400px) {
 	.ulcntnt{
@@ -240,10 +240,10 @@ ul{
 /*	#h4{
 		font-size: 1rem;
 	}*/
-.ulcntnt li{
+/*.ulcntnt li{
 	margin-left: -10px;
 }
-	
+	*/
 }
 
 @media only screen and (max-width: 290px) {
@@ -253,15 +253,19 @@ ul{
 	/*#h4{
 		font-size: 0.9rem;
 	}*/
-.ulcntnt li{
+/*.ulcntnt li{
 	margin-left: -1rem;
-}
+}*/
 	
 }
 
-
-
-
+/*
+@media only screen and (max-width: 761px){
+	.one, .two, .three{
+		margin: auto;width: 50%;
+	}
+}
+*/
 
 
 .ulcntnt a:hover {
@@ -281,7 +285,7 @@ ul{
 }
 
 
-
+/*-----------------------------------------------Services---------------------*/
 
 .our-services{
 	margin-top: 100px;
